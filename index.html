@@ -307,4 +307,574 @@
         }
 
         .other-project p {
-            color: #
+            color: #aeb6b0;
+        }
+
+        /* CONTACT */
+
+        .contact {
+            background: #101510;
+            border-top: 1px solid #202820;
+        }
+
+        .contact-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .contact-item {
+            padding: 12px 18px;
+
+            background: #171e18;
+
+            border: 1px solid #303a31;
+            border-radius: 8px;
+
+            color: #bfc6c1;
+        }
+
+        .contact-item:hover {
+            border-color: #7dff91;
+            color: #7dff91;
+        }
+
+        /* FOOTER */
+
+        footer {
+            text-align: center;
+
+            padding: 30px 20px;
+
+            color: #707771;
+
+            border-top: 1px solid #202820;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 700px) {
+
+            .nav-links {
+                display: none;
+            }
+
+            .hero {
+                min-height: 70vh;
+            }
+
+            .hero-subtitle {
+                font-size: 21px;
+            }
+
+            .container {
+                padding: 60px 20px;
+            }
+
+            .project-header,
+            .project-content {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav>
+    <div class="nav-container">
+
+        <div class="logo">
+            CrafterBros
+        </div>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#project">Project</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="container">
+
+        <div class="hero-content">
+
+            <div class="hero-small">
+                MINECRAFT BEDROCK ADD-ON DEVELOPER
+            </div>
+
+            <h1>
+                Crafter<span>Bros</span>
+            </h1>
+
+            <div class="hero-subtitle">
+                Independent Minecraft Bedrock Add-on Developer
+            </div>
+
+            <p class="hero-description">
+                I create Minecraft Bedrock add-ons focused on improving
+                gameplay while preserving the feeling and identity of
+                survival gameplay.
+            </p>
+
+            <div class="buttons">
+
+                <a class="button primary" href="#project">
+                    View My Project
+                </a>
+
+                <a class="button"
+                   href="https://github.com/crafterbros"
+                   target="_blank">
+                    GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            About <span>Me</span>
+        </h2>
+
+        <p class="about-text">
+
+            I am an independent Minecraft Bedrock add-on developer
+            currently studying at university. I have been working with
+            Minecraft Bedrock add-ons for more than a year, with a
+            primary focus on creating gameplay additions and survival
+            improvements.
+
+            <br><br>
+
+            I regularly test my add-ons together with my siblings,
+            using real gameplay sessions to find problems, improve
+            features and refine the overall experience.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- MAIN PROJECT -->
+
+<section id="project">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Featured <span>Project</span>
+        </h2>
+
+        <div class="project-card">
+
+            <div class="project-header">
+
+                <h3>
+                    Pet Chests & Survival Essentials
+                </h3>
+
+                <p>
+                    Over 6 months of development
+                    · Completed · Future updates planned
+                </p>
+
+            </div>
+
+
+            <div class="project-content">
+
+                <p class="project-description">
+
+                    Pet Chests & Survival Essentials is a Minecraft
+                    Bedrock add-on designed to make survival gameplay
+                    more enjoyable and convenient without removing
+                    the feeling of playing survival Minecraft.
+
+                    The add-on combines useful quality-of-life systems
+                    with living companions that can store the player's
+                    items and provide different gameplay effects.
+
+                </p>
+
+
+                <!-- FEATURES -->
+
+                <div class="features">
+
+
+                    <div class="feature">
+
+                        <h4>
+                            Pet Chests
+                        </h4>
+
+                        <p>
+                            Five different living chest companions,
+                            each providing different gameplay effects
+                            and functionality.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <h4>
+                            Spawner Silk Touch
+                        </h4>
+
+                        <p>
+                            Allows mob spawners to be collected as blocks
+                            using a Silk Touch pickaxe.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <h4>
+                            Tree Feller
+                        </h4>
+
+                        <p>
+                            Breaking a connected tree log automatically
+                            cuts down the rest of the tree.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <h4>
+                            Vein Miner
+                        </h4>
+
+                        <p>
+                            Mining an ore automatically mines the
+                            connected ore vein.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <h4>
+                            Mob Health Bar
+                        </h4>
+
+                        <p>
+                            Displays a mob's name and health bar in the
+                            action bar when looking at it.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <h4>
+                            Stack Refill
+                        </h4>
+
+                        <p>
+                            Automatically replaces a depleted held item
+                            stack with another available stack from
+                            the inventory.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <h4>
+                            Anvil Repair
+                        </h4>
+
+                        <p>
+                            Provides a gradual repair system using iron
+                            ingots while crouching and interacting with
+                            the item.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <h4>
+                            Gravestone
+                        </h4>
+
+                        <p>
+                            Stores the player's items at the location
+                            where they died.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <h4>
+                            Craftable Mob Spawn Eggs
+                        </h4>
+
+                        <p>
+                            Allows mob spawn eggs to be crafted using
+                            custom materials and mob egg shells.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <h4>
+                            Horse Armor Recipes
+                        </h4>
+
+                        <p>
+                            Adds crafting recipes for iron, gold and
+                            diamond horse armor.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature">
+
+                        <h4>
+                            Encumbering Stone
+                        </h4>
+
+                        <p>
+                            Prevents item pickup while held in the
+                            inventory and can be toggled through
+                            interaction.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VIDEO -->
+
+                <h3 style="margin-top: 50px;">
+                    Gameplay Showcase
+                </h3>
+
+                <div class="video-container">
+
+                    <iframe
+                        src="https://www.youtube.com/embed/_7tDHmpVYb8"
+                        title="Pet Chests & Survival Essentials Gameplay"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+
+                <div class="buttons">
+
+                    <a class="button primary"
+                       href="https://youtu.be/_7tDHmpVYb8"
+                       target="_blank">
+
+                        Watch on YouTube
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Technical <span>Skills</span>
+        </h2>
+
+        <div class="skills">
+
+            <div class="skill">
+                Minecraft Bedrock Add-ons
+            </div>
+
+            <div class="skill">
+                JSON
+            </div>
+
+            <div class="skill">
+                JavaScript
+            </div>
+
+            <div class="skill">
+                Basic Animation
+            </div>
+
+            <div class="skill">
+                Basic Geometry
+            </div>
+
+            <div class="skill">
+                Basic Texture
+            </div>
+
+            <div class="skill">
+                Behavior Packs
+            </div>
+
+            <div class="skill">
+                Resource Packs
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- OTHER PROJECTS -->
+
+<section>
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Other <span>Projects</span>
+        </h2>
+
+
+        <div class="other-project">
+
+            <h3>
+                Vanilla Guns
+            </h3>
+
+            <p>
+                A Minecraft Bedrock add-on project currently in
+                development, focused on creating a vanilla-style
+                firearm experience.
+            </p>
+
+            <p style="margin-top: 15px; color: #777;">
+                Development in progress.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            Get in <span>Touch</span>
+        </h2>
+
+        <p class="about-text">
+            Feel free to reach out for collaborations, projects
+            or questions about my work.
+        </p>
+
+
+        <div class="contact-list">
+
+            <a class="contact-item"
+               href="https://github.com/crafterbros"
+               target="_blank">
+
+                GitHub
+
+            </a>
+
+
+            <a class="contact-item"
+               href="mailto:petchestssurvivalessentials@gmail.com">
+
+                Email
+
+            </a>
+
+
+            <a class="contact-item"
+               href="https://www.youtube.com/@CrafterBros58"
+               target="_blank">
+
+                YouTube
+
+            </a>
+
+
+            <div class="contact-item">
+
+                Discord: crafterbros_69322
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    © 2026 CrafterBros · Minecraft Bedrock Add-on Developer
+
+</footer>
+
+
+</body>
+</html>
